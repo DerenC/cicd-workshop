@@ -19,6 +19,11 @@ jobs:
               with:
                 text: 'HA HA HA!'
                 color: 'green'
+            - id: s03
+              uses: mscoutermarsh/cowsays-action@master
+              with:
+                text: 'I AM BLUE!'
+                color: 'blue'
             #   run: ls -al
             # - id: s01
             #   run: cat README.md
