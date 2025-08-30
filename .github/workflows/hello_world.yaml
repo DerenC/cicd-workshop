@@ -11,7 +11,5 @@ jobs:
     greetings:
         runs-on: ubuntu-latest
         steps:
-        - id: s00
-        run: echo "Current time in github is $(date)"
-
-
+            - name: s00
+              run: echo "Current time in github is $(date)"
