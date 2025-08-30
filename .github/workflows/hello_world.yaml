@@ -11,9 +11,10 @@ jobs:
     greetings:
         runs-on: ubuntu-latest
         steps:
+            # A step is also called context in GH Actions
             - id: s00
               # running some shell bash command
-              run: echo "Current time in github is $(date)"
+              run: echo "Current time in github is $(date), ${GITHUB_OUTPUT}"
             - id: s01
               # Redirect in linux shell
               # Create a value and pass onto the next step
