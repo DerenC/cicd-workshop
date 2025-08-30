@@ -14,7 +14,7 @@ jobs:
             - id: s00
               # running some shell bash command
               run: echo "Current time in github is $(date)"
+            - id: s02
+              run: ls -al
             - id: s01
               run: cat README.md
-            - id: s02
-              run: ls -l
