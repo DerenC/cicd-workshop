@@ -11,5 +11,8 @@ jobs:
     greetings:
         runs-on: ubuntu-latest
         steps:
-            - name: s00
+            - id: s00
               run: echo "Current time in github is $(date)"
+
+            - id: s01
+              run: cat README.md
