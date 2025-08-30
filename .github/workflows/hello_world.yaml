@@ -13,6 +13,3 @@ jobs:
         steps:
             - id: s00
               run: echo "Current time in github is $(date)"
-
-            - id: s01
-              run: cat ../../README.md
